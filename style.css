@@ -1,0 +1,75 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Canvas Styling */
+.canvas {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 30px;
+}
+
+/* Button Styling */
+.button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    border: 2px solid #ddd;
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
+
+/* Color Buttons */
+#grey {
+    background-color: #888;
+}
+
+#white {
+    background-color: #fff;
+    border: 2px solid #ccc;
+}
+
+#blue {
+    background-color: #3498db;
+}
+
+#yellow {
+    background-color: #f1c40f;
+}
+
+/* Text Span Style */
+h2 span {
+    display: block;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #777;
+}
